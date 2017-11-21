@@ -1,24 +1,27 @@
 # Meta
-description: A minimal hexo theme.
-keywords: hexo,theme,typescript,otakism,otaku
-site_desc: otaku keeps alive
+description: Hello, world!
+keywords: zhiqing,java,android,志青
+site_desc: Hello, world!
 
 # Navigation
 navigation:
-- name: Home
+- name: 主页
   slug: home
   url: /
-- name: About
-  slug: about
-  url: /about
-- name: Archives
+- name: 归档
   slug: archives
   url: /archives
+- name: 工作
+  slug: studio
+  url: http://studio.zhiqing.info
+- name: 关于
+  slug: about
+  url: /about
 
 # Search
 search: 
   enable: true
-  service: google # google/hexo/algolia/azure/baidu
+  service: hexo # google/hexo/algolia/azure/baidu
   # google 
   google_api_key:
   google_engine_id:
@@ -35,31 +38,32 @@ search:
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
-author_url: http://rakugaki.me
+favicon: /images/avatar.png
+author_url: http://zhiqing.info
 
 # Less
 less:
   compress: true
 
+
 # use url, not username
 social:
 - slug: email
-  url: #mailto:i@artifact.me
+  url: mailto:i@zhiqing.info
 - slug: github
-  url: https://github.com/artchen
+  url: https://github.com/zhiqing-lee
 - slug: twitter
-  url: https://twitter.com/otakism
+  url: https://twitter.com/zhiqing_hello
 - slug: rss
 	url: /atom.xml
 - slug: google
-  url: https://plus.google.com/+ArtChenOtakism/posts
+  url: #https://plus.google.com/+ArtChenOtakism/posts
 - slug: facebook
   url: # https://www.facebook.com/zanchoret
 - slug: linkedin
   url: # https://www.linkedin.com/in/buzun
 - slug: sina-weibo
-  url: http://weibo.com/otakism/
+  url: #http://weibo.com/otakism/
 - slug: tumblr
   url: # http://artchen.tumblr.com
 - slug: dribbble
